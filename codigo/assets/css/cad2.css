@@ -1,0 +1,162 @@
+.footer {
+    background-image: linear-gradient( to right, #8452ed , #4a2890,#524570);
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background-image: linear-gradient( to right, #8452ed, #4a2890,#524570);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    align-items:end;
+}
+
+/* Dentro do Sobre Nos */
+.Nos {
+    border-bottom: solid;
+}
+
+.Missao {
+    border-bottom: solid;
+}
+
+.Visao {
+    border-bottom: solid;
+}
+
+.logo {
+    height:130px ;
+    width: 130px;
+}
+
+.center-box {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    width: 396px;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: whitesmoke;
+}
+
+.container {
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #a176f79c;
+}
+
+.card_cadas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 3rem;
+}
+
+.card_cadas form {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.4rem;
+    width: 100%;
+}
+
+.input_box input {
+    margin: 0.6rem 0;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input_box input:hover {
+    background-color: rgba(238, 238, 238, 0.493);
+}
+
+.input_box input:focus-visible {
+    outline: 1px solid #8452ed;
+}
+
+.input_box label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000000d0;
+}
+
+.input_box input::placeholder {
+    color: #000000be;
+}
+
+.btn_next {
+    margin-top: 20px;
+    background-color: #56F482;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_next a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.btn_return {
+    position: fixed;
+    margin-left: 290px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .input_group {
+        padding: 10px;
+    }
+
+    .input_box label, .input_box input {
+        width: 100%;
+    }
+
+    .btn_next {
+        width: 100%;
+        padding: 10px;
+    }
+}

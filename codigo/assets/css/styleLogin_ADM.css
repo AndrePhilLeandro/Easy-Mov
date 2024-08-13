@@ -1,0 +1,34 @@
+
+.footer{
+    background-image: linear-gradient( to right, #8452ed , #4a2890,#524570);
+    color: white;
+    text-align: center;
+}
+.navbar{
+    background-image: linear-gradient( to right, #8452ed, #4a2890,#524570);
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+    align-items:end;
+}
+
+.logo{
+    
+    height:130px ;
+    width: 130px;
+} 
+.center-box {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        margin: auto;
+        width: 396px;
+        padding: 20px;
+        border: 1px solid #ccc; 
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        background-color: whitesmoke;
+    }
+

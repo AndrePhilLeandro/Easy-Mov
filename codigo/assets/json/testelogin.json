@@ -1,0 +1,15 @@
+[
+    {
+        "Usuario": "Administrador",
+        "email": "administrador@adm.com",
+        "senha": "Admin123"
+        
+        
+    },
+    {
+        "Usuario": "Puc Minas SG",
+        "email": "Pucminas@puc.br",
+        "senha": "Puc12345"
+    }
+    
+]
